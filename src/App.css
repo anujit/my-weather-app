@@ -1,0 +1,77 @@
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+h1{
+  margin: 50px 0;
+}
+
+.city-title {
+  margin-bottom: 20px;
+}
+
+.card {
+  width: 15rem;
+  margin-right: 5px;
+}
+
+.card-header {
+  border-bottom: none;
+}
+
+.weather-icon {
+  height: 80px;
+  width: 80px;
+  margin: auto;
+}
+
+p.weather-condition {
+  min-height: 50px;
+  text-align: center;
+}
+
+.temp-wrap {
+  width: 142px;
+  height: 50px;
+  margin: auto;
+  position: relative;
+}
+
+.current-temp-wrap {
+  position: relative;
+}
+
+span.temp-unit {
+  position: absolute;
+}
+
+.current-temp{
+  font-size: 30px;
+  display: inline-block;
+}
+
+span.min-temp {
+  position: absolute;
+  color: #bababa;
+  bottom: 0;
+  right: 0;
+}
+
+span.max-temp {
+  position: absolute;
+  color: #878787;
+  top: 0;
+  right: 0;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
